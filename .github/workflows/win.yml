@@ -80,6 +80,7 @@ jobs:
       - name: Clone.
         uses: actions/checkout@v7
         with:
+          ref: v6.8.0
           submodules: recursive
           path: ${{ env.TBUILD }}\${{ env.REPO_NAME }}
 
